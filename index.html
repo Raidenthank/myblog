@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Raidenthank 's blog</title>
+</head>
+<body>
+<article>
+    <h1>从零开始的Coding生活</h1>
+    <h2>写于
+        <time datetime="2017-01-05">2017.1.5</time>
+    </h2>
+    <p>2017年，大四上的暑假开始自学web前端，希望能藉此找到一些方向</p>
+    <p>1.5，开始了解h5新特性，为了编程的方便，下载
+        <mark>webstorm</mark>
+        作为开发工具，并破解。
+        （ps：这里感谢博主画虎烂的提供的破解方法，并附上链接。）
+    </p>
+    <p>
+    <li><a href="http://blog.csdn.net/it_talk/article/details/52448597">破解方法</a></li>
+    </p>
+</article>
+
+<article>
+    <h1>表单提交</h1>
+    <form action="" method="post" id="html5_form">
+        <p>
+            <label for="isearch">搜索</label>
+            <input type="search" name="isearch" id="isearch" placeholder="search..." required autofocus x-webkit-speech />
+            <small>请输入搜索内容</small>
+        </p>
+        <p>
+            <label for="keygenx">加密强度</label>
+            <keygen name="keygen" id="keygenx" />
+        </p>
+        <p>
+            <label for="name">用户名</label>
+            <input type="text" name="name" id="name" placeholder="请输入您的名字" required />
+        </p>
+        <p>
+            <label for="mail">Email</label>
+            <input type="text" name="mail" id="mail" placeholder="example@domain.com" pattern="\w+@[a-z0-9]+\.[a-z]+" required title="example@domain.com" />
+        </p>
+        <p>
+            <label for="pass">密码</label>
+            <input type="password" name="pass" id="pass" placeholder="请填写密码" required />
+        </p>
+        <p>
+            <label for="age">年龄</label>
+            <input type="range" name="age" id="age" min="18" max="60" value="30" required />
+        </p>
+        <p>
+            <label for="height">身高</label>
+            <input type="number" name="height" id="height" value="170" required />
+        </p>
+        <p>
+            <label for="time">生日</label>
+            <input type="date" name="time" id="time" required />
+        </p>
+        <p>
+            <label for="color">颜色</label>
+            <input type="color" name="color" id="color" value="#c8bfe7" required />
+        </p>
+        <p>
+            <label for="search">搜索引擎</label>
+            <input type="url" name="search" id="search" list="searchlist" autocomplete="on" pattern="https?://.+" />
+            <datalist id="searchlist">
+                <option value="http://www.baidu.com/">
+                <option value="http://www.google.com/">
+                <option value="http://www.sogou.com/">
+            </datalist>
+        </p>
+        <p class="btn"><input type="submit" value="点一下瞧瞧" class="sbt" /></p>
+    </form>
+</article>
+
+</body>
+<footer><h5 align="center">ZJUT Copyright 2017 Raidenthank All rights reserved.</h5></footer>
+</html>
